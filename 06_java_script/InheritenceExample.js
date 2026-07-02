@@ -20,7 +20,7 @@ class Developer extends Employee {
   }
 }
 
-const dev = new Developer("Sumit", 50000, "JavaScript");
+const dev = new Developer("Sumit", 250000, "JavaScript");
 
 dev.work();
 dev.writeCode();

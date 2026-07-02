@@ -27,3 +27,4 @@ movieList.innerHTML += "<li class='movie'>Manosh</li>"; // access and change tag
 
 const movies = document.querySelectorAll(".movie"); // all elements having class movie
 console.log(movies);
+

@@ -11,4 +11,4 @@ setTimeout(() => {
 
 setInterval(() => {
   item.classList.toggle("movie");
-}, 200);
+}, 2000);
