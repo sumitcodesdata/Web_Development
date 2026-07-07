@@ -7,13 +7,12 @@
 
 // }
 
-for (let i=0;i<100;i++){
-    const li = document.createElement("li");
-    let text = "";
-    if(i%3==0) text+="Fizz";
+const ul = document.querySelector(".movieList");
+console.log(ul);
 
-    if(i%5==0) text+="Buzz";
-     li.innerText=text==""?i:text;
-     ul.appendChild(li);
+const li = document.createElement("li");
 
-}
+li.innerText = "Dabangg";
+li.classList.add = "movie";
+
+ul.appendChild(li);
